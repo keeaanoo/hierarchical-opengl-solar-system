@@ -9,7 +9,6 @@ Sun → Earth → Moon
 Earth orbits the Sun, and the Moon orbits the Earth.  
 The program uses **OpenGL Matrix Stack (`glPushMatrix` and `glPopMatrix`)** to implement hierarchical transformations.
 
----
 
 ## Features
 
@@ -19,15 +18,14 @@ The program uses **OpenGL Matrix Stack (`glPushMatrix` and `glPopMatrix`)** to i
 - Orbit visualization lines
 - Keyboard-controlled camera
 
----
 
 ## Hierarchy Structure
 Sun
+
 └── Earth
+
   └── Moon
 
-
----
 
 ## Requirements
 
@@ -36,9 +34,6 @@ PyOpenGL
 
 Install dependencies: pip install PyOpenGL PyOpenGL_accelerate
 
-
-
----
 
 ## How to Run
 
@@ -54,7 +49,6 @@ Run the program:
 python main.py
 
 
----
 
 ## Camera Controls
 
@@ -67,5 +61,7 @@ python main.py
 | Q | Move up |
 | E | Move down |
 
----
 
+## Preview
+
+![Solar System Preview](image.png)

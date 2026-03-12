@@ -34,26 +34,23 @@ Sun
 Python 3.8+  
 PyOpenGL
 
-Install dependencies:
+Install dependencies: pip install PyOpenGL PyOpenGL_accelerate
 
-pip install PyOpenGL PyOpenGL_accelerate
-
-pip install PyOpenGL PyOpenGL_accelerate
 
 
 ---
 
 ## How to Run
 
-Clone the repository:
+Clone the repository: 
 https://github.com/keeaanoo/hierarchical-opengl-solar-system.git
 
 
-Go to the project folder:
+Go to the project folder: 
 cd hierarchical-opengl-solar-system
 
 
-Run the program:
+Run the program: 
 python main.py
 
 
